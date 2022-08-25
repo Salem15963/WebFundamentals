@@ -22,15 +22,18 @@
     </div>
     <div><label>Birthday</label><input type="date" name="dob" /></div>
     <h4>Gender Identity</h4>
-    <input type="radio" name="font" value="bold" id="bold" />
-    <label for="Male">Male</label>
-    <input type="radio" name="font" value="normal" id="normal" />
-    <label for="female">Female</label>
-    <input type="radio" name="font" value="bold" id="bold" />
-    <label for="non-binary">Non-Binary</label>
-    <input type="radio" name="font" value="bold" id="bold" />
-    <label for="i-prefer-not-to-answer">I Prefer Not To Answer</label>
-    <h4>A Short Description About Myself</h4>
+    <div>
+      <input type="radio" name="accept"/>
+      <label for="accept">Male</label>
+      <input type="radio" name="accept" />
+      <label for="accept">Female</label>
+      <input type="radio" name="accept" />
+      <label for="accept">Non-binary</label>
+      <input type="radio" name="accept"/>
+      <label for="accept">I prefer not to answer</label>
+    </div>
+
+        <h4>A Short Description About Myself</h4>
     <textarea name="comment" cols="20" rows="3"></textarea>
     <div>
       <label>favorite language</label>
@@ -44,8 +47,7 @@
     <div style="margin-bottom: 4px">
       <input type="checkbox" name="accept" id="accept" />
       <label for="accept"
-        >Yes,I Would Like To Receive Periodic Email Updates</label
-      >
+        >Yes,I Would Like To Receive Periodic Email Updates</label>
     </div>
     <input type="submit" value="Creat Account" />
     <h4>*Indicates a required field</h4>
