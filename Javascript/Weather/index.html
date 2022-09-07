@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,7 +25,7 @@
                 <h2>San Jose</h2>
                 <div class="select-temp">
                 <h3>Show tempreture In</h3>
-                <select name="btn" id="measureunit">
+                <select name="btn" id="measureunit" onchange="">
                     <option value="Cel">C°</option>
                     <option value="Fer">F°</option>
                 </select>
@@ -40,7 +40,7 @@
             <img src="assets/some_rain.png" alt="rain">
             <a1>some rain</a1>
             <div class="hot-cold">
-                <div class="hot">24°</div>
+                <div class="hot"><span class="degree">24</span>°</div>
                 <div class="cold">18°</div>
             </div>
         </div>

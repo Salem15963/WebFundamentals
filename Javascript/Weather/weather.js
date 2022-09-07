@@ -10,20 +10,33 @@ element.remove()
 
     function cToF(celsius) 
     {
-var cTemp = celsius;
-      var cToFahr = cTemp * 9 / 5 + 32;
+        var cTemp = celsius;
+         var cToFahr = cTemp * 9 / 5 + 32;
 
     }
     
     function fToC(fahrenheit) 
     {
-var fTemp = fahrenheit;
-      var fToCel = (fTemp - 32) * 5 / 9;
+        var fTemp = fahrenheit;
+         var fToCel = (fTemp - 32) * 5 / 9;
+         return fToCel
     } 
 
-    Function toC(){
+    function changeUnit(){
 
-        if (measureunit.)
+        // get the value of the selector
+       // let unit = document.getElementById('measureunit').
+        if(unit == "C°"){
+            // for every element in the card
+            let degrees = document.getElementsByClassName('degree')
+            for(let i=0; i<degrees.length; i++){
+                degrees[i].innerText = fToC(degrees[i].innerText)
+            }
+            
+        }else{
+            // for every element in the card
+            cToF()
+        }
     }
 
     
